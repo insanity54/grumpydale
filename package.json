@@ -5,9 +5,13 @@
   "main": "build.js",
   "dependencies": {},
   "devDependencies": {
-    "cli-real-favicon": "0.0.5"
+    "cli-real-favicon": "0.0.5",
+    "metalsmith": "^2.1.0",
+    "metalsmith-assets": "^0.1.0",
+    "metalsmith-markdown": "^0.2.1"
   },
   "scripts": {
+    "build": "node ./node_modules/metalsmith/bin/metalsmith",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Grimmett <chris@grimtech.net>",

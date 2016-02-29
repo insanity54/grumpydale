@@ -1,6 +1,6 @@
 # Grumpydale.com
 
-[![devDependency Status](https://david-dm.org/insanity54/grumpydale/dev-status.svg)](https://david-dm.org/insanity54/grumpydale#info=devDependencies) [![Dependency Status](https://gemnasium.com/insanity54/grumpydale.svg)](https://gemnasium.com/insanity54/grumpydale)
+[![devDependency Status](https://david-dm.org/insanity54/grumpydale/dev-status.svg)](https://david-dm.org/insanity54/grumpydale#info=devDependencies) [![Dependency Status](https://gemnasium.com/insanity54/grumpydale.svg)](https://gemnasium.com/insanity54/grumpydale) [![Codacy Badge](https://api.codacy.com/project/badge/grade/33fca1245a074a45a091e6105bddd030)](https://www.codacy.com/app/chris_17/grumpydale)
 
 This page is intended for developers, webmasters, or site maintainers. This page is a repository of the code that generates grumpydale.com. If you would like to see the website meant for everyone, check out http://grumpydale.com
 
@@ -16,13 +16,13 @@ The master image for the favicon should be 260x260px and have a transparent back
 
 Create the cross-platform favicons, outputting them to the ./dist folder:
 
-```bash
+```
 node ./node_modules/cli-real-favicon/real-favicon.js generate faviconDescription.json faviconData.json ./dist`
 ```
 
 Inject the HTML code into the pages
 
-```bash
+```
 node ./node_modules/cli-real-favicon/real-favicon.js inject faviconData.json ./dist ./dist/*.html
 ```
 
@@ -43,6 +43,21 @@ add a snippet like this inside .gallery inside index.html:
 ```
 
 place the pictures inside ./dist/img/
+
+
+## TODO
+
+* [ ] Create pages
+  * [ ] About the Artist
+  * [ ] Contact
+  * [ ] Art
+    * [ ] Colored Pencil
+    * [ ] Crayons
+    * [ ] Oil
+* [ ] Create templates and partials from index.html
+* [ ] Create build script
+  * [ ] Navbar creation
+  * [ ] Partial injecting
 
 
 ## LICENSE
