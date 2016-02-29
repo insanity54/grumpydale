@@ -1,4 +1,4 @@
-# Grumpydale.com
+# Grumpydale.com [![devDependency Status](https://david-dm.org/insanity54/grumpydale/dev-status.svg)](https://david-dm.org/insanity54/grumpydale#info=devDependencies) [![Dependency Status](https://gemnasium.com/insanity54/grumpydale.svg)](https://gemnasium.com/insanity54/grumpydale)
 
 
 
@@ -12,11 +12,15 @@ The master image for the favicon should be 260x260px and have a transparent back
 
 Create the cross-platform favicons, outputting them to the ./dist folder:
 
-    `node ./node_modules/cli-real-favicon/real-favicon.js generate faviconDescription.json faviconData.json ./dist`
+```bash
+node ./node_modules/cli-real-favicon/real-favicon.js generate faviconDescription.json faviconData.json ./dist`
+```
 
 Inject the HTML code into the pages
 
-    `node ./node_modules/cli-real-favicon/real-favicon.js inject faviconData.json ./dist ./dist/*.html`
+```bash
+node ./node_modules/cli-real-favicon/real-favicon.js inject faviconData.json ./dist ./dist/*.html
+```
 
 For more info on this process, check out https://realfavicongenerator.net/favicon_result?file_id=p1acmt43uc10hhulg1p5d1l4314cj6
 
