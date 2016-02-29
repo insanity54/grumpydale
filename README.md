@@ -1,8 +1,12 @@
-# Grumpydale.com [![devDependency Status](https://david-dm.org/insanity54/grumpydale/dev-status.svg)](https://david-dm.org/insanity54/grumpydale#info=devDependencies) [![Dependency Status](https://gemnasium.com/insanity54/grumpydale.svg)](https://gemnasium.com/insanity54/grumpydale)
+# Grumpydale.com
 
+[![devDependency Status](https://david-dm.org/insanity54/grumpydale/dev-status.svg)](https://david-dm.org/insanity54/grumpydale#info=devDependencies) [![Dependency Status](https://gemnasium.com/insanity54/grumpydale.svg)](https://gemnasium.com/insanity54/grumpydale)
+
+This page is intended for developers, webmasters, or site maintainers. This page is a repository of the code that generates grumpydale.com. If you would like to see the website meant for everyone, check out http://grumpydale.com
 
 
 ## Build process
+
 
 ### Favicon generation
 
@@ -39,3 +43,10 @@ add a snippet like this inside .gallery inside index.html:
 ```
 
 place the pictures inside ./dist/img/
+
+
+## LICENSE
+
+Images are copyright Dale DuRee
+
+non-library HTML/CSS/JS is MIT license Chris Grimmett
