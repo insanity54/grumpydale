@@ -1,0 +1,37 @@
+{
+	"masterPicture": "./src/assets/favicon-lg.png",
+	"iconsPath": "/",
+	"design": {
+		"ios": {
+			"pictureAspect": "backgroundAndMargin",
+			"backgroundColor": "#ada2bd",
+			"margin": "11%"
+		},
+		"desktopBrowser": {},
+		"windows": {
+			"pictureAspect": "noChange",
+			"backgroundColor": "#603cba",
+			"onConflict": "override"
+		},
+		"androidChrome": {
+			"pictureAspect": "noChange",
+			"themeColor": "#ffffff",
+			"manifest": {
+				"name": "Grumpydale",
+				"display": "browser",
+				"orientation": "notSet",
+				"onConflict": "override",
+				"declared": true
+			}
+		},
+		"safariPinnedTab": {
+			"pictureAspect": "silhouette",
+			"themeColor": "#5bbad5"
+		}
+	},
+	"settings": {
+		"compression": 1,
+		"scalingAlgorithm": "Mitchell",
+		"errorOnImageTooSmall": false
+	}
+}

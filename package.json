@@ -1,0 +1,15 @@
+{
+  "name": "grumpydale",
+  "version": "1.0.0",
+  "description": "Grumpydale.com website",
+  "main": "build.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cli-real-favicon": "0.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Grimmett <chris@grimtech.net>",
+  "license": "MIT"
+}
