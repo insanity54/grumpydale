@@ -1,3 +1,5 @@
 ---
-layout: site.hbs
+layout: categories.hbs
 ---
+
+hello

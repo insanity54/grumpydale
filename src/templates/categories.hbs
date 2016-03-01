@@ -2,7 +2,6 @@
 {{> ieshim }}
   <head>
     {{> siteHead }}
-    {{> photoswipeHead }}
     {{> favicons }}
   </head>
   <body>
@@ -11,21 +10,11 @@
 
   <div class="container">
     {{> breadcrumb }}
-    <div class="row">
-      <div id="gallery-images" class="gallery">
-
-        {{> galleryCrayon }}
-
-      </div> {{! /.class }}
-    </div> {{! /.row }}
-
-
-    {{> photoswipe }}
+    {{> categories }}
     <hr>
     {{> footer }}
   </div> {{! /container }}
     {{> siteJs }}
-    {{> galleryJs }}
 
   </body>
 </html>

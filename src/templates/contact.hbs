@@ -1,0 +1,28 @@
+<!doctype html>
+{{> ieshim }}
+  <head>
+    {{> siteHead }}
+    {{> favicons }}
+  </head>
+  <body>
+  {{> browserCheck }}
+  {{> navbar }}
+
+    <div class="container">
+      {{> breadcrumb }}
+      <h3>Contact Information</h3>
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          {{> contactInfo }}
+        </div> {{! /.col }}
+      </div> {{! /.row }}
+
+
+      <hr>
+      {{> footer }}
+    </div> {{! /container }}
+    {{> siteJs }}
+
+  </body>
+</html>

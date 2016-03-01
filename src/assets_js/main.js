@@ -154,6 +154,11 @@
 
  			    // define options (if needed)
  			    options = {
+              shareButtons: [
+                {id:'facebook', label:'Share on Facebook', url:'https://www.facebook.com/sharer/sharer.php?u={{url}}'},
+                {id:'twitter', label:'Tweet', url:'https://twitter.com/intent/tweet?text={{text}}&url={{url}}'},
+                {id:'pinterest', label:'Pin it', url:'http://www.pinterest.com/pin/create/button/?url={{url}}&media={{image_url}}&description={{text}}'}
+              ],
 
  			        galleryUID: galleryElement.getAttribute('data-pswp-uid'),
 
@@ -298,18 +303,3 @@
  		initPhotoSwipeFromDOM('.gallery');
 
  	})();
-
-
-// // build items array
-// var items = [
-//     {
-//         src: 'img/Chipmunks_Picture.jpg',
-//         w: 956,
-//         h: 768
-//     },
-//     {
-//         src: 'img/Moose_Picture.jpg',
-//         w: 613,
-//         h: 768
-//     }
-// ];

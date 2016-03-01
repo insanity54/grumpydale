@@ -55,9 +55,10 @@ place the pictures inside ./dist/img/
     * [ ] Crayons
     * [ ] Oil
 * [ ] Create templates and partials from index.html
-* [ ] Create build script
-  * [ ] Navbar creation
-  * [ ] Partial injecting
+* [x] Create build script
+  * [x] Navbar creation
+  * [x] Partial injecting
+* [ ] Fix hamburger menu
 
 
 ## LICENSE
