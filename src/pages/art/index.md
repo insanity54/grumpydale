@@ -1,6 +1,5 @@
 ---
-layout: gallery.hbs
-rootPath: ../
+layout: categories.hbs
 ---
 
 `@todo remove`
