@@ -1,4 +1,4 @@
-.gallery figure {
+.grid figure {
   display: none;
 }
 
@@ -10,3 +10,17 @@ body {
 .gallery {
 
 }
+
+.one-nine-three {
+  max-width: 193px;
+}
+
+.grid-item--landscape {
+   width: 280px;
+   height: 250px;
+ }
+
+ .grid-item--portrait {
+   width: 180px;
+   height: 250px;
+ }

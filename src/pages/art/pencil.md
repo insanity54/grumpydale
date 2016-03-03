@@ -1,5 +1,6 @@
 ---
 layout: gallery.hbs
+rootPath: ../../
 ---
 
 

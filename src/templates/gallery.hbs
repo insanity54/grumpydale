@@ -1,9 +1,10 @@
 <!doctype html>
 {{> ieshim }}
   <head>
-    {{> siteHead }}
     {{> photoswipeHead }}
+    {{> siteHead }}
     {{> favicons }}
+    {{> osProtocol }}
   </head>
   <body>
   {{> browserCheck }}
@@ -12,13 +13,9 @@
   <div class="container">
     {{> breadcrumb }}
     {{{ contents }}}
-    <div class="row">
-      <div id="gallery-images" class="gallery">
-
-        {{> galleryCrayon }}
-
-      </div> {{! /.class }}
-    </div> {{! /.row }}
+    <div id="c" class="cag">
+      {{> galleryCrayon }}
+    </div> {{! /.gallery }}
 
 
     {{> photoswipe }}

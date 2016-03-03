@@ -1,5 +1,6 @@
 ---
 layout: categories.hbs
+rootPath: ../../
 ---
 
 `@todo remove`

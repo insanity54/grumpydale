@@ -3,7 +3,7 @@
 <div class="row">
   <div class="col-sm-12 col-md-3">
     <div class="thumbnail">
-      <img src="/img/Artist_Picture.jpg" alt="Artist A. Dale DuRee">
+      <img src="{{rootPath}}img/Artist_Picture.jpg" alt="Artist A. Dale DuRee">
       <div class="caption">
         <p>Artist A. Dale DuRee</p>
       </div>
@@ -11,6 +11,6 @@
   </div> {{! /.col }}
 
   <div class="col-sm-12 col-md-9">
-    <p>{{{ contents }}}</p> {{! contents is text pulled from pages/about.md}}
+    {{{ contents }}} {{! contents is text pulled from pages/about.md}}
   </div>
 </div> {{! /.row }}
