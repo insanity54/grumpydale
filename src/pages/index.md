@@ -1,6 +1,4 @@
 ---
-layout: categories.hbs
+layout: gallery.hbs
 rootPath: ../
 ---
-
-hello

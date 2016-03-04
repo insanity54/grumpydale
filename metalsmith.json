@@ -42,9 +42,6 @@
         "directory": "src/templates",
         "partials": "src/partials"
       }
-    }, {
-      "metalsmith-permalinks": {
-      }
     }
   ]
 }

@@ -47,18 +47,17 @@ place the pictures inside ./dist/img/
 
 ## TODO
 
-* [ ] Create pages
-  * [ ] About the Artist
-  * [ ] Contact
-  * [ ] Art
-    * [ ] Colored Pencil
-    * [ ] Crayons
-    * [ ] Oil
-* [ ] Create templates and partials from index.html
+* [x] Create pages
+  * [x] About the Artist
+  * [x] Contact
+  * [x] Art
+    * [x] Colored Pencil
+    * [x] Crayons
+* [x] Create templates and partials from index.html
 * [x] Create build script
   * [x] Navbar creation
   * [x] Partial injecting
-* [ ] Fix hamburger menu
+* [x] Fix hamburger menu
 
 
 ## LICENSE
