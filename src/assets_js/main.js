@@ -300,6 +300,11 @@
  			}
  		};
 
- 		initPhotoSwipeFromDOM('.gallery');
+ 		initPhotoSwipeFromDOM('.grid');
+
+    // $('.grid').masonry({
+    //   // options
+    //   itemSelector: '.grid-item',
+    // });
 
  	})();

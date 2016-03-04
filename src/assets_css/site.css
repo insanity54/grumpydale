@@ -7,20 +7,45 @@ body {
     padding-bottom: 20px;
 }
 
-.gallery {
+.gallery-image-container {
+  margin-top: 10px;
+}
+
+.gallery-section-heading {
+  background-color: rgb(238, 238, 238);
+}
+
+.gallery-section-title {
+  margin-top: 10px;
+}
+
+.gallery-image-container img {
+  height: 50px;
+  margin: auto;
+}
+
+.grid {
 
 }
 
-.one-nine-three {
-  max-width: 193px;
+
+/*@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}*/
+
+
+.grid-item img {
+  margin-bottom: 12px;
+  margin-right: 12px;
 }
 
-.grid-item--landscape {
+.grid-item-landscape img {
    width: 280px;
    height: 250px;
  }
 
- .grid-item--portrait {
+ .grid-item-portrait img {
    width: 180px;
    height: 250px;
  }
