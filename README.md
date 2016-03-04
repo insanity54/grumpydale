@@ -63,5 +63,5 @@ place the pictures inside ./dist/img/
 ## LICENSE
 
 Images are copyright Dale DuRee
-
-non-library HTML/CSS/JS is MIT license Chris Grimmett
+Vendor libraries have their own license
+All remaining HTML/CSS/JS is MIT license Chris Grimmett
