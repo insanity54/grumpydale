@@ -58,6 +58,8 @@ place the pictures inside ./dist/img/
   * [x] Navbar creation
   * [x] Partial injecting
 * [x] Fix hamburger menu
+* [ ] Hide the <a> underline when hovering on images
+* [ ] Add purple theme
 
 
 ## LICENSE

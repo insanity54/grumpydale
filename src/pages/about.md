@@ -1,6 +1,6 @@
 ---
 layout: about.hbs
-rootPath: ../
+rootPath: ./
 ---
 
 I am happily married with 2 children, 5 step children and 16 grandchildren. Much to my delight, all of our grand-children have learned to call me "Grandpa Dale" which always brings a smile.

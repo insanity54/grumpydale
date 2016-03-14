@@ -1,6 +1,6 @@
 ---
 layout: contact.hbs
-rootPath: ../
+rootPath: ./
 ---
 
 Grumpy Dale Greetings
