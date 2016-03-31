@@ -59,11 +59,13 @@ place the pictures inside ./dist/img/
   * [x] Partial injecting
 * [x] Fix hamburger menu
 * [ ] Hide the <a> underline when hovering on images
-* [ ] Add purple theme
+* [x] Add purple theme
 
 
 ## LICENSE
 
 Images are copyright Dale DuRee
+
 Vendor libraries have their own license
+
 All remaining HTML/CSS/JS is MIT license Chris Grimmett

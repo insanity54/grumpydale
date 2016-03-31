@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Grumpydale.com website",
   "main": "build.js",
-  "dependencies": {},
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "metalsmith-layouts": "^1.6.4"
+  },
   "devDependencies": {
     "cli-real-favicon": "0.0.5",
     "metalsmith": "^2.1.0",
