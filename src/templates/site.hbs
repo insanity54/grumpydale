@@ -1,7 +1,6 @@
 <!doctype html>
 {{> ieshim }}
   <head>
-    {{> photoswipeHead }}
     {{> siteHead }}
     {{> favicons }}
     {{> osProtocol }}
@@ -10,18 +9,13 @@
   {{> browserCheck }}
   {{> navbar }}
 
-  <div class="container main">
-      <div id="gallery-images" class="gallery">
-        {{> galleryCrayon }}
-      </div> {{! /.gallery }}
+    <div class="container main">
+      {{> intro }}
 
-
-    {{> photoswipe }}
-    <hr>
-    {{> footer }}
-  </div> {{! /container }}
+      <hr>
+      {{> footer }}
+    </div> {{! /container }}
     {{> siteJs }}
-    {{> galleryJs }}
 
   </body>
 </html>
