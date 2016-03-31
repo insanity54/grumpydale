@@ -13,5 +13,7 @@ I have experience with oils, acrylics, water colors, pastels and chalk, but my f
 
 For many years I have given hand-made greeting cards to family and friends, and now I would like to share them with you.  I hope you enjoy receiving them as much as I have enjoyed making them.
 
+
 Thank you,
+
 A. Dale DuRee
