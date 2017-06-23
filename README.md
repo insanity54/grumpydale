@@ -24,6 +24,9 @@ The Metalsmith templates are be compliled into a website using the metalsmith co
 
 The website is compiled HTML files under `./dist`. The contents of `dist` are then uploaded (ex: ftp) and served by your web services provider (ex: Godaddy.)
 
+You can use FileZilla to upload the files, or a quick and easy method is to use `npm run deploy`. (lftp dependency)
+
+
 ### Favicon generation
 
 Dependencies: Node.js
