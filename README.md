@@ -7,6 +7,22 @@ This page is intended for developers, webmasters, or site maintainers. This page
 
 ## Build process
 
+### Initial setup
+
+After cloning this repository to your workstation, you will need to download all the npm and bower dependencies.
+
+```
+$ npm install
+$ bower install
+```
+
+### Build step
+
+The Metalsmith templates are be compliled into a website using the metalsmith command line tool, ./node_modules/metalsmith/bin/metalsmith`. An easy shortcut to run this tool is to run `npm run build` (build script defined in package.json)
+
+### Upload step
+
+The website is compiled HTML files under `./dist`. The contents of `dist` are then uploaded (ex: ftp) and served by your web services provider (ex: Godaddy.)
 
 ### Favicon generation
 
@@ -31,18 +47,10 @@ For more info on this process, check out https://realfavicongenerator.net/favico
 
 ### Adding pictures
 
-add a snippet like this inside .gallery inside index.html:
+  * Add new code to `./src/partials/gallery.hbs`
+  * Place the pictures inside `./src/assets_img`
+  * `npm run build`
 
-```html
-<a href="https://FULL-SIZE-PICTURE-HERE.jpg" data-size="1600x1067"
-   data-med="https://MEDIUM-SIZE-PICTURE-HERE.jpg" data-med-size="1024x683"
-   data-author="Dale DuRee">
-  <img src="https://THUMBNAIL-PICTURE-HERE.jpg" alt="" />
-  <figure>This is dummy caption. Add your own caption here.</figure>
-</a>
-```
-
-place the pictures inside ./dist/img/
 
 
 ## TODO
