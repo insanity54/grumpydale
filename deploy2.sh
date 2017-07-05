@@ -38,21 +38,26 @@ bindir=$(getbindir)
 printf "Please enter the FTP username: "
 read username
 
-printf "Please enter the FTP password: "
-read -s password
-printf '\n'
+#printf "Please enter the FTP password: "
+#read -s password
+#printf '\n'
 
 host=grumpydale.com
 lcd="$bindir/dist"
-rcd="/public_html"
+rcd="/home/dale52duree/public_html"
 ftpurl="ftp://$username:$password@$host"
 
 
-lftp -c "set ftp:list-options -a;
-set ssl:check-hostname no;
-open '$ftpurl';
-lcd $lcd;
-cd $crd;
-mirror --reverse \
-       --verbose
-"
+sftp -r "${username}@${host}:${rcd}" <<EOF
+  lcd "${lcd}"
+  put .
+  exit
+EOF
+#lftp -c "set ftp:list-options -a;
+#set ssl:check-hostname no;
+#open '$ftpurl';
+#lcd $lcd;
+#cd $crd;
+#mirror --reverse \
+#       --verbose
+#"

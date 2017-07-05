@@ -1,6 +1,6 @@
 {
   "name": "grumpydale",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Grumpydale.com website",
   "main": "build.js",
   "dependencies": {
