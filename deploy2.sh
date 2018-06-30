@@ -48,7 +48,7 @@ rcd="/home/dale52duree/public_html"
 ftpurl="ftp://$username:$password@$host"
 
 
-sftp -r "${username}@${host}:${rcd}" <<EOF
+sftp -o IdentitiesOnly=yes -r "${username}@${host}:${rcd}" <<EOF
   lcd "${lcd}"
   put .
   exit
