@@ -69,7 +69,7 @@ For more info on this process, check out https://realfavicongenerator.net/favico
   * [x] Navbar creation
   * [x] Partial injecting
 * [x] Fix hamburger menu
-* [ ] Hide the <a> underline when hovering on images
+* [x] Hide the <a> underline when hovering on images
 * [x] Add purple theme
 
 
