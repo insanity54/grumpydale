@@ -18,7 +18,7 @@ $ bower install
 
 ### Build step
 
-The Metalsmith templates are be compliled into a website using the metalsmith command line tool, ./node_modules/metalsmith/bin/metalsmith`. An easy shortcut to run this tool is to run `npm run build` (build script defined in package.json)
+The Metalsmith templates are be compliled into a website using the metalsmith command line tool, `./node_modules/metalsmith/bin/metalsmith`. An easy shortcut to run this tool is to run `npm run build` (build script defined in package.json)
 
 ### Upload step
 
