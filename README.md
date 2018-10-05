@@ -1,6 +1,6 @@
 # Grumpydale.com
 
-[![devDependency Status](https://david-dm.org/insanity54/grumpydale/dev-status.svg)](https://david-dm.org/insanity54/grumpydale#info=devDependencies) [![Dependency Status](https://gemnasium.com/insanity54/grumpydale.svg)](https://gemnasium.com/insanity54/grumpydale) [![Codacy Badge](https://api.codacy.com/project/badge/grade/33fca1245a074a45a091e6105bddd030)](https://www.codacy.com/app/chris_17/grumpydale)
+[![devDependency Status](https://david-dm.org/insanity54/grumpydale/dev-status.svg)](https://david-dm.org/insanity54/grumpydale#info=devDependencies) [![Dependency Status](https://gemnasium.com/insanity54/grumpydale.svg)](https://gemnasium.com/insanity54/grumpydale) [![Codacy Badge](https://api.codacy.com/project/badge/grade/33fca1245a074a45a091e6105bddd030)](https://www.codacy.com/app/chris_17/grumpydale) [![Greenkeeper badge](https://badges.greenkeeper.io/insanity54/grumpydale.svg)](https://greenkeeper.io/)
 
 This page is intended for developers, webmasters, or site maintainers. This page is a repository of the code that generates grumpydale.com. If you would like to see the website meant for everyone, check out http://grumpydale.com
 
